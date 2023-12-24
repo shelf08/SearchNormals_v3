@@ -52,7 +52,7 @@
       <recent name="C:\Users\viplo\IdeaProjects\SearchNormals_v3\3DModels\Faceform" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ru.vsu.cs.lobtsov_d_a.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cgvsu.Main" />
       <module name="SearchNormals_v3" />
@@ -66,8 +66,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ru.vsu.cs.lobtsov_d_a.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.vsu.cs.lobtsov_d_a.Main" />
+      <module name="SearchNormals_v3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.vsu.cs.lobtsov_d_a.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ru.vsu.cs.lobtsov_d_a.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>

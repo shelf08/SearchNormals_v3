@@ -12,13 +12,13 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         Path fileName = Path.of("3DModels/SimpleModelsForReaderTests/Teapot.obj");
+//        Path fileName = Path.of("3DModels/Faceform/WrapBody.obj");
         String fileContent = Files.readString(fileName);
 
-        System.out.println("Loading model ...");
+        System.out.println("Model - " + fileName);
         Model model = ObjReader.read(fileContent);
 
 
-        System.out.println(fileName);
         System.out.println("Vertices: " + model.vertices.size());
         System.out.println("Texture vertices: " + model.textureVertices.size());
         System.out.println("Normals: " + model.normals.size());
